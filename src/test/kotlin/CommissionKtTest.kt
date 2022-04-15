@@ -37,7 +37,7 @@ class CommissionKtTest {
         )
 
         // assert
-        assertEquals(55_00, result)
+        assertEquals(60_00, result)
     }
 
     @Test
@@ -55,7 +55,7 @@ class CommissionKtTest {
         )
 
         // assert
-        assertEquals(30_00, result)
+        assertEquals(35_00, result)
     }
 
     @Test
