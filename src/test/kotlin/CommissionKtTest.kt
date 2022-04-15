@@ -94,5 +94,17 @@ class CommissionKtTest {
         assertEquals(0, result)
     }
 
+    @Test
+    fun transferFee_default() {
+        // arrange
+        val amount = 8000_00
 
+        //act
+        val result = transferFee(
+            transferAmount = amount
+        )
+
+        // assert
+        assertEquals(0, result)
+    }
 }
